@@ -1,0 +1,18 @@
+body {
+  font-family: monospace;
+  /* height: 100vh; */
+  background: #dddd;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
+}
+#p3 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
