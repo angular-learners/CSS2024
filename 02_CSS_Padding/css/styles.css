@@ -1,3 +1,6 @@
+:root {
+  --dodgerblue: dodgerblue;
+}
 body {
   padding: 0;
   margin: 0;
@@ -17,7 +20,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-  color: dodgerblue;
+  color: var(--dodgerblue);
 }
 
 .create-account-form {
@@ -26,8 +29,8 @@ body {
   min-height: 50vh;
   padding: 30px;
   width: 50%;
-  border-left: 4px solid dodgerblue;
-  border-top: 4px solid dodgerblue;
+  border-left: 4px solid var(--dodgerblue);
+  border-top: 4px solid var(--dodgerblue);
 }
 
 input[type="text"],
@@ -42,7 +45,7 @@ input[type="password"] {
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: dodgerblue;
+  background-color: var(--dodgerblue);
   color: #fff;
   text-transform: uppercase;
 }
